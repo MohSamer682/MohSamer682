@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Mohamed Samer Abdalla, Software Engineer, Java, Spring Boot, Quality Engineering" width="100%" />
+<img src="banner.svg" alt="Mohamed Samer Abdalla, Software Engineer, Java, Spring Boot, Quality Engineering" width="100%" />
 
 <br />
 
