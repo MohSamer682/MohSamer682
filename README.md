@@ -1,77 +1,159 @@
 <div align="center">
 
-# Mohamed Samer Abdalla
+<img src="assets/banner.svg" alt="Mohamed Samer Abdalla, Software Engineer, Java, Spring Boot, Quality Engineering" width="100%" />
 
-### Software Engineer · Java · Spring Boot · Quality Engineering
+<br />
 
-*I build backend systems that are clean, tested, and ready for production, with a QA engineer's instinct for what can go wrong.*
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-</p>
-
-<p>
-  <a href="mailto:muhamedsamer286@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/mohamed-samer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/Based_in-Egypt-informational?style=flat-square" alt="Location" />
-  <img src="https://img.shields.io/badge/Open_to-Java_Backend_Roles-success?style=flat-square" alt="Open to work" />
-</p>
+<a href="mailto:muhamedsamer286@gmail.com"><img src="https://img.shields.io/badge/Email-ffb454?style=for-the-badge&logo=gmail&logoColor=0b0f14&labelColor=ffb454" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/mohamed-samer"><img src="https://img.shields.io/badge/LinkedIn-0e131a?style=for-the-badge&logo=linkedin&logoColor=e6edf3&labelColor=0e131a" alt="LinkedIn" /></a>
 
 </div>
 
----
+<br />
 
-## About
+## `01` About
 
 I'm a software engineer with 2+ years in enterprise systems, working across testing, requirements analysis, and delivery. That background shapes how I write code: I think about failure modes, API contracts, and testability from the first commit.
 
-I'm focused on **Java backend engineering**, specifically REST API design, data modeling with JPA, layered architecture, and automated testing. I also use AI tools (Claude Code, Codex) in my workflow for analysis, test generation, and debugging, and I always review the output myself.
+My focus is **Java backend engineering**: REST API design, data modeling with JPA, layered architecture, and automated testing. I use AI tools such as Claude Code and Codex for analysis, test generation, and debugging, and I always review the output myself.
 
-**Currently**
-- Building Spring Boot backend projects (below)
-- Completing the *IBM Java Developer Professional Certificate*
-- Targeting **Java Backend Developer**, **Spring Boot Developer**, and **Java QA Automation Engineer** roles
+```yaml
+# profile.yml
+role: Software Engineer
+focus: Java backend, REST APIs
+stack: Java, Spring Boot, JPA
+learning: IBM Java Developer Professional Certificate
+targets:
+  - Java Backend Developer
+  - Spring Boot Developer
+  - Java QA Automation Engineer
+```
 
----
+<br />
 
-## Tech Stack
+## `02` Tech stack
 
-| Area | Technologies |
-|------|--------------|
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Frameworks** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white) |
-| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Testing** | ![JUnit5](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white) ![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-FF6F00?style=flat-square&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![JMeter](https://img.shields.io/badge/JMeter-D22128?style=flat-square&logo=apachejmeter&logoColor=white) |
-| **Tooling** | ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) |
-| **AI-assisted** | ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white) ![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white) |
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+**Languages**
 
-## Featured Projects
+![Java](https://img.shields.io/badge/Java-0e131a?style=flat-square&logo=openjdk&logoColor=ffb454)
+![SQL](https://img.shields.io/badge/SQL-0e131a?style=flat-square&logo=postgresql&logoColor=60a5fa)
+![Python](https://img.shields.io/badge/Python-0e131a?style=flat-square&logo=python&logoColor=60a5fa)
 
-### 1. Employee Information System
+</td>
+<td width="33%" valign="top">
 
-A layered **Spring Boot REST API** for employee-record management, built around clean separation of concerns, validated input, and consistent error handling.
+**Frameworks**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-0e131a?style=flat-square&logo=springboot&logoColor=5eead4)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-0e131a?style=flat-square&logo=spring&logoColor=5eead4)
+![Spring Security](https://img.shields.io/badge/Spring_Security-0e131a?style=flat-square&logo=springsecurity&logoColor=5eead4)
+![Hibernate](https://img.shields.io/badge/Hibernate-0e131a?style=flat-square&logo=hibernate&logoColor=b8c2d0)
 
-**Highlights**
-- Full **CRUD** over a REST contract with correct HTTP semantics and status codes
-- **DTO layer** separating API models from JPA entities
-- **Bean Validation** on request payloads, with centralized error responses via `@RestControllerAdvice` (RFC 7807 `ProblemDetail`)
-- **Pagination and sorting** through Spring Data
-- Interactive API documentation with **Swagger / OpenAPI**
+</td>
+<td width="33%" valign="top">
+
+**Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0e131a?style=flat-square&logo=postgresql&logoColor=60a5fa)
+![MySQL](https://img.shields.io/badge/MySQL-0e131a?style=flat-square&logo=mysql&logoColor=60a5fa)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Testing**
+
+![JUnit 5](https://img.shields.io/badge/JUnit_5-0e131a?style=flat-square&logo=junit5&logoColor=5eead4)
+![Mockito](https://img.shields.io/badge/Mockito-0e131a?style=flat-square&logoColor=5eead4)
+![Selenium](https://img.shields.io/badge/Selenium-0e131a?style=flat-square&logo=selenium&logoColor=5eead4)
+![TestNG](https://img.shields.io/badge/TestNG-0e131a?style=flat-square&logoColor=ffb454)
+![Postman](https://img.shields.io/badge/Postman-0e131a?style=flat-square&logo=postman&logoColor=ffb454)
+![JMeter](https://img.shields.io/badge/JMeter-0e131a?style=flat-square&logo=apachejmeter&logoColor=f87171)
+
+</td>
+<td valign="top">
+
+**Tooling**
+
+![Maven](https://img.shields.io/badge/Maven-0e131a?style=flat-square&logo=apachemaven&logoColor=f87171)
+![Git](https://img.shields.io/badge/Git-0e131a?style=flat-square&logo=git&logoColor=f87171)
+![Docker](https://img.shields.io/badge/Docker-0e131a?style=flat-square&logo=docker&logoColor=60a5fa)
+![Jira](https://img.shields.io/badge/Jira-0e131a?style=flat-square&logo=jira&logoColor=60a5fa)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0e131a?style=flat-square&logo=azuredevops&logoColor=60a5fa)
+
+</td>
+<td valign="top">
+
+**AI-assisted**
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-0e131a?style=flat-square&logo=anthropic&logoColor=ffb454)
+![Codex](https://img.shields.io/badge/Codex-0e131a?style=flat-square&logo=openai&logoColor=e6edf3)
+
+</td>
+</tr>
+</table>
+
+<br />
+
+## `03` Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Employee Information System
+`01 / REST API`
+
+A layered Spring Boot API for employee-record management, built around clean separation of concerns, validated input, and consistent error handling.
+
+![Java](https://img.shields.io/badge/Java-0e131a?style=flat-square&logo=openjdk&logoColor=ffb454)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-0e131a?style=flat-square&logo=springboot&logoColor=5eead4)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-0e131a?style=flat-square&logo=spring&logoColor=5eead4)
+![MySQL](https://img.shields.io/badge/MySQL-0e131a?style=flat-square&logo=mysql&logoColor=60a5fa)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-0e131a?style=flat-square&logo=openapiinitiative&logoColor=5eead4)
+
+- Full CRUD with correct HTTP semantics and status codes
+- DTO layer, Bean Validation, centralized error responses (RFC 7807)
+- Pagination, sorting, and OpenAPI documentation
 - Unit tests (JUnit 5, Mockito) and controller tests (MockMvc)
 
-**Architecture**
+| Method | Path |
+|--------|------|
+| `POST` | `/api/employees` |
+| `GET` | `/api/employees`, `/api/employees/{id}` |
+| `PUT` | `/api/employees/{id}` |
+| `DELETE` | `/api/employees/{id}` |
+
+</td>
+<td width="50%" valign="top">
+
+### AI-Powered Resume Screener
+`02 / SPRING BOOT + LLM`
+
+Upload a job description and a batch of resumes. The service extracts text, scores each candidate with structured LLM output, and returns a ranked shortlist with a justification for every score.
+
+![Java](https://img.shields.io/badge/Java-0e131a?style=flat-square&logo=openjdk&logoColor=ffb454)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-0e131a?style=flat-square&logo=springboot&logoColor=5eead4)
+![Spring Batch](https://img.shields.io/badge/Spring_Batch-0e131a?style=flat-square&logo=spring&logoColor=5eead4)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0e131a?style=flat-square&logo=postgresql&logoColor=60a5fa)
+![MinIO](https://img.shields.io/badge/MinIO-0e131a?style=flat-square&logo=minio&logoColor=f87171)
+![Docker](https://img.shields.io/badge/Docker-0e131a?style=flat-square&logo=docker&logoColor=60a5fa)
+
+- PDF extraction with Apache PDFBox
+- Validated JSON from the LLM before any score is stored
+- Asynchronous batch scoring with configurable weights
+- Ranked shortlist exportable to Excel, runnable with Docker Compose
+
+</td>
+</tr>
+</table>
+
+**Employee Information System: architecture**
 
 ```mermaid
 flowchart LR
@@ -79,42 +161,11 @@ flowchart LR
     CT --> SV[Service]
     SV --> RP[Repository]
     RP --> DB[(MySQL)]
-    CT -. validation .-> EH[Exception Handler]
+    CT -. errors .-> EH[Exception Handler]
     SV -. mapping .-> DTO[DTO Mapper]
 ```
 
-**Endpoints**
-
-| Method | Path | Description |
-|--------|------|-------------|
-| `POST` | `/api/employees` | Create an employee |
-| `GET` | `/api/employees` | List employees (paged, sortable) |
-| `GET` | `/api/employees/{id}` | Get one employee |
-| `PUT` | `/api/employees/{id}` | Update an employee |
-| `DELETE` | `/api/employees/{id}` | Delete an employee |
-
----
-
-### 2. AI-Powered Resume Screener
-
-A **Spring Boot + LLM** service that ranks candidates against a job description. Upload a JD and a batch of resumes; the system extracts text, scores each candidate with structured LLM output, and returns a ranked shortlist with a justification for every score.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Batch](https://img.shields.io/badge/Spring_Batch-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Highlights**
-- **PDF text extraction and cleanup** with Apache PDFBox
-- **Prompt engineering** for skill extraction, returning structured JSON that is validated before use
-- **Asynchronous batch scoring** for large resume sets (Spring Batch)
-- **Configurable scoring weights** (skills, experience, education) per job description
-- **Ranked shortlist** with per-candidate justification, exportable to Excel
-- Resume files stored in **MinIO**, results in **PostgreSQL**, everything runnable with **Docker Compose**
-
-**Pipeline**
+**AI Resume Screener: pipeline**
 
 ```mermaid
 flowchart LR
@@ -129,69 +180,68 @@ flowchart LR
     R --> X[Excel Export]
 ```
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 3. Test Generator: Java & OOP
+### Test Generator
+`03 / JAVA + OOP`
 
-A Java application that builds tests from instructor-provided questions, with object-oriented design applied to question management, test generation, and output.
+Builds tests from instructor-provided questions, with object-oriented design applied to question management, test generation, and output.
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+</td>
+<td width="50%" valign="top">
 
----
+### Active Accident Prevention
+`04 / EMBEDDED + ML, GRADE A+`
 
-### 4. Active Accident Prevention: Graduation Project (A+)
+Graduation prototype combining lane-departure warning and traffic-sign detection with a HuskyLens AI camera, sensors, and driver alerts.
 
-A vehicle-safety prototype combining **lane-departure warning** and **traffic-sign detection**. A HuskyLens AI camera and sensors recognize signs and alert the driver when the vehicle drifts out of its lane.
+</td>
+</tr>
+</table>
 
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logoColor=white)
+<br />
 
----
+## `04` Experience
 
-## Experience
+| Period | Role | Highlights |
+|--------|------|------------|
+| **Oct 2025 – Present** | Software Test Engineer, **Madkour Technology** | End-to-end validation of an enterprise platform (functional, regression, role-based access, JMeter performance). AI-assisted QA workflows that produce test plans, cases, and reports, reviewed before use. |
+| **Mar 2024 – Sep 2025** | System Engineer, **Paragon Developments** | Redesigned Zoho CRM workflows. Tested an internal OKR portal, Procore, Autodesk Docs, and Odoo HR across workflow, integration, and permission scenarios. |
+| **Aug 2023 – Jan 2024** | Software Engineering Intern, **ACUD** | Tested the ACUD ERP system, maintained test cases in Redmine, and took part in CRM integration testing, mobile testing, and requirements workshops. |
 
-| Role | Company | Period |
-|------|---------|--------|
-| **Software Test Engineer** | Madkour Technology | Oct 2025 – Present |
-| **System Engineer** | Paragon Developments | Mar 2024 – Sep 2025 |
-| **Software Engineering Intern** | ACUD | Aug 2023 – Jan 2024 |
+<br />
 
-- Validate an enterprise platform end to end: functional, regression, role-based access, and **JMeter performance testing**
-- Build **AI-assisted QA workflows** that produce test plans, cases, and reports, reviewed before use
-- Translate stakeholder needs into requirements and user stories through gap analysis
-- Tested Zoho CRM, Odoo HR, Procore, Autodesk Docs, and an ERP system
+## `05` Engineering principles
 
----
+| Principle | In practice |
+|-----------|-------------|
+| **Clean layering** | Thin controllers, rules in services, persistence behind repositories |
+| **Contract first** | Explicit DTOs, validation, predictable error responses |
+| **Test what matters** | Unit tests for logic, slice tests for the web layer, integration tests against real databases |
+| **Reproducible setups** | Docker for local environments, Maven for builds |
+| **Review everything** | AI-generated code gets the same scrutiny as any other change |
 
-## Engineering Principles
+<br />
 
-- **Clean layering:** controllers stay thin, business rules live in services, persistence stays behind repositories
-- **Contract first:** explicit DTOs, validation, and predictable error responses
-- **Test what matters:** unit tests for logic, slice tests for the web layer, integration tests against real databases
-- **Reproducible setups:** Docker for local environments, Maven for builds
-- **Review everything:** AI-generated code and tests get the same scrutiny as any other change
-
----
-
-## Education & Learning
+## `06` Education
 
 - **B.Sc. Software Engineering**, Arab Academy for Science, Technology and Maritime Transport (2019 – 2023)
 - **IBM Java Developer Professional Certificate**, Coursera *(in progress)*
-- **Java Spring Boot 3 & Spring 6**, Udemy *(completed)*
+- **Java Spring Boot 3 and Spring 6**, Udemy *(completed)*
 - **Software Testing Bootcamp**, Nezam Academy
 - **Performance Testing with JMeter**, SWQ Academy
 
----
-
-## Let's Connect
-
-I'm open to Java backend and Spring Boot opportunities, and happy to talk about API design, testing strategy, or AI-assisted engineering.
+<br />
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/muhamedsamer286@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhamedsamer286@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-samer)
+### Let's build something reliable.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6DB33F&height=90&section=footer" alt="footer" />
+I'm open to Java backend and Spring Boot opportunities, and happy to talk about API design, testing strategy, or AI-assisted engineering.
+
+<a href="mailto:muhamedsamer286@gmail.com"><img src="https://img.shields.io/badge/muhamedsamer286@gmail.com-ffb454?style=for-the-badge&logo=gmail&logoColor=0b0f14&labelColor=ffb454" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/mohamed-samer"><img src="https://img.shields.io/badge/LinkedIn-0e131a?style=for-the-badge&logo=linkedin&logoColor=e6edf3&labelColor=0e131a" alt="LinkedIn" /></a>
 
 </div>
