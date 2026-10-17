@@ -21,7 +21,7 @@ My focus is **Java backend engineering**: REST API design, data modeling with JP
 # profile.yml
 role: Software Engineer
 focus: Java backend, REST APIs
-stack: Java, Spring Boot, JPA
+Stack: Java, Spring Boot, JPA
 learning: IBM Java Developer Professional Certificate
 targets:
   - Java Backend Developer
@@ -31,10 +31,10 @@ targets:
 
 <br />
 
-## `02` Tech stack
+## `02` Tech Stack
 
 <div align="center">
-<img src="stack.svg" alt="Tech stack: Java, SQL, Python, Spring Boot, Spring Data JPA, Spring Security, Hibernate, PostgreSQL, MySQL, JUnit 5, Mockito, Selenium, TestNG, Postman, JMeter, Maven, Git, Docker, Jira, Azure DevOps, Claude Code, Codex" width="100%" />
+<img src="Stack.svg" alt="Tech Stack: Java, SQL, Python, Spring Boot, Spring Data JPA, Spring Security, Hibernate, PostgreSQL, MySQL, JUnit 5, Mockito, Selenium, TestNG, Postman, JMeter, Maven, Git, Docker, Jira, Azure DevOps, Claude Code, Codex" width="100%" />
 </div>
 
 <br />
