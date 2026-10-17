@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" alt="Mohamed Samer Abdalla, Software Engineer, Java, Spring Boot, Quality Engineering" width="100%" />
+<img src="banner.png" alt="Mohamed Samer Abdalla, Software Engineer, Java, Spring Boot, Quality Engineering" width="100%" />
 
 <br />
 
@@ -21,7 +21,7 @@ My focus is **Java backend engineering**: REST API design, data modeling with JP
 # profile.yml
 role: Software Engineer
 focus: Java backend, REST APIs
-Stack: Java, Spring Boot, JPA
+stack: Java, Spring Boot 3, Spring Data JPA, Hibernate ORM, MySQL
 learning: IBM Java Developer Professional Certificate
 targets:
   - Java Backend Developer
@@ -31,10 +31,10 @@ targets:
 
 <br />
 
-## `02` Tech Stack
+## `02` Tech stack
 
 <div align="center">
-<img src="Stack.svg" alt="Tech Stack: Java, SQL, Python, Spring Boot, Spring Data JPA, Spring Security, Hibernate, PostgreSQL, MySQL, JUnit 5, Mockito, Selenium, TestNG, Postman, JMeter, Maven, Git, Docker, Jira, Azure DevOps, Claude Code, Codex" width="100%" />
+<img src="stack.png" alt="Tech stack: Java, Apache Maven, SQL, Spring Boot 3, Spring Framework 6, Spring MVC, Spring Data JPA, Hibernate ORM, Spring Security, Thymeleaf, MySQL, RESTful APIs, Postman, Selenium WebDriver, TestNG, Page Object Model, Apache JMeter, Git, GitHub, Jira, Azure DevOps, Zephyr Scale, Docker, Claude Code, Codex, Prompt Engineering" width="100%" />
 </div>
 
 <br />
@@ -146,7 +146,7 @@ Graduation prototype combining lane-departure warning and traffic-sign detection
 
 | Period | Role | Highlights |
 |--------|------|------------|
-| **Oct 2025 – Present** | Software Test Engineer, **Madkour Technology** | End-to-end validation of an enterprise platform (functional, regression, role-based access, JMeter performance). AI-assisted QA workflows that produce test plans, cases, and reports, reviewed before use. |
+| **Oct 2025 – Present** | Software Test Engineer, **Madkour Technology** | End-to-end validation of an enterprise platform (functional, regression, role-based access, Apache JMeter performance). AI-assisted QA workflows that produce test plans, cases, and reports, reviewed before use. |
 | **Mar 2024 – Sep 2025** | System Engineer, **Paragon Developments** | Redesigned Zoho CRM workflows. Tested an internal OKR portal, Procore, Autodesk Docs, and Odoo HR across workflow, integration, and permission scenarios. |
 | **Aug 2023 – Jan 2024** | Software Engineering Intern, **ACUD** | Tested the ACUD ERP system, maintained test cases in Redmine, and took part in CRM integration testing, mobile testing, and requirements workshops. |
 
