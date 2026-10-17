@@ -1,186 +1,96 @@
-<div align="center">
+# Mohamed Samer Abdalla
 
-<img src="banner.png" alt="Mohamed Samer Abdalla, Software Engineer, Java, Spring Boot, Quality Engineering" width="100%" />
+**Software Engineer | Java & Spring Boot | Quality Engineering**
 
-<br />
+Cairo, Egypt · [muhamedsamer286@gmail.com](mailto:muhamedsamer286@gmail.com) · [LinkedIn](https://www.linkedin.com/in/mohamed-samer)
 
-<a href="mailto:muhamedsamer286@gmail.com"><img src="https://img.shields.io/badge/Email-ffb454?style=for-the-badge&logo=gmail&logoColor=0b0f14&labelColor=ffb454" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/mohamed-samer"><img src="https://img.shields.io/badge/LinkedIn-0e131a?style=for-the-badge&logo=linkedin&logoColor=e6edf3&labelColor=0e131a" alt="LinkedIn" /></a>
+---
 
-</div>
+## About
 
-<br />
+I am a software engineer with more than two years of experience in enterprise systems, working across testing, requirements analysis, and delivery. I am now focused on Java backend development, specifically REST API design, data persistence with JPA, and layered application architecture.
 
-## `01` About
+My background in quality engineering shapes how I build software. I design for testability, define clear API contracts, and think about failure cases from the start. I use AI-assisted tools such as Claude Code and Codex for analysis, test generation, and debugging, and I review all generated output before it is used.
 
-I'm a software engineer with 2+ years in enterprise systems, working across testing, requirements analysis, and delivery. That background shapes how I write code: I think about failure modes, API contracts, and testability from the first commit.
+I am open to roles as a **Java Backend Developer**, **Spring Boot Developer**, or **Java QA Automation Engineer**.
 
-My focus is **Java backend engineering**: REST API design, data modeling with JPA, layered architecture, and automated testing. I use AI tools such as Claude Code and Codex for analysis, test generation, and debugging, and I always review the output myself.
+---
 
-```yaml
-# profile.yml
-role: Software Engineer
-focus: Java backend, REST APIs
-stack: Java, Spring Boot 3, Spring Data JPA, Hibernate ORM, MySQL
-learning: IBM Java Developer Professional Certificate
-targets:
-  - Java Backend Developer
-  - Spring Boot Developer
-  - Java QA Automation Engineer
-```
+## Technical Skills
 
-<br />
+| Area | Skills |
+|------|--------|
+| Languages | Java, SQL |
+| Frameworks | Spring Boot 3, Spring Framework 6, Spring MVC, Spring Data JPA, Hibernate ORM, Spring Security, Thymeleaf |
+| Databases | MySQL |
+| APIs | RESTful API design, Postman |
+| Testing | Selenium WebDriver, TestNG, Page Object Model, Apache JMeter |
+| Tools | Apache Maven, Git, GitHub, Jira, Azure DevOps, Zephyr Scale, Docker (fundamentals) |
+| AI-assisted engineering | Claude Code, Codex, prompt engineering for development and QA workflows |
+| Practices | Object-oriented design, SOLID principles, Agile delivery, requirements analysis |
 
-## `02` Tech stack
+---
 
-<div align="center">
-<img src="stack.png" alt="Tech stack: Java, Apache Maven, SQL, Spring Boot 3, Spring Framework 6, Spring MVC, Spring Data JPA, Hibernate ORM, Spring Security, Thymeleaf, MySQL, RESTful APIs, Postman, Selenium WebDriver, TestNG, Page Object Model, Apache JMeter, Git, GitHub, Jira, Azure DevOps, Zephyr Scale, Docker, Claude Code, Codex, Prompt Engineering" width="100%" />
-</div>
-
-<br />
-
-## `03` Featured projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## Projects
 
 ### Employee Information System
-`01 / REST API`
+A Spring Boot REST API for managing employee records, with full create, read, update, and delete operations.
 
-A layered Spring Boot API for employee-record management, built around clean separation of concerns, validated input, and consistent error handling.
+- Layered architecture: controller, service, and repository
+- Persistence with Spring Data JPA and Hibernate on MySQL
+- REST endpoints following standard HTTP methods and status codes
 
-![Java](https://img.shields.io/badge/Java-0e131a?style=flat-square&logo=openjdk&logoColor=ffb454)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0e131a?style=flat-square&logo=springboot&logoColor=5eead4)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-0e131a?style=flat-square&logo=spring&logoColor=5eead4)
-![MySQL](https://img.shields.io/badge/MySQL-0e131a?style=flat-square&logo=mysql&logoColor=60a5fa)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-0e131a?style=flat-square&logo=openapiinitiative&logoColor=5eead4)
-
-- Full CRUD with correct HTTP semantics and status codes
-- DTO layer, Bean Validation, centralized error responses (RFC 7807)
-- Pagination, sorting, and OpenAPI documentation
-- Unit tests (JUnit 5, Mockito) and controller tests (MockMvc)
-
-| Method | Path |
-|--------|------|
-| `POST` | `/api/employees` |
-| `GET` | `/api/employees`, `/api/employees/{id}` |
-| `PUT` | `/api/employees/{id}` |
-| `DELETE` | `/api/employees/{id}` |
-
-</td>
-<td width="50%" valign="top">
+**Stack:** Java, Spring Boot, Spring Data JPA, Hibernate, MySQL
 
 ### AI-Powered Resume Screener
-`02 / SPRING BOOT + LLM`
+A Spring Boot service that ranks candidate resumes against a job description using an LLM.
 
-Upload a job description and a batch of resumes. The service extracts text, scores each candidate with structured LLM output, and returns a ranked shortlist with a justification for every score.
+- Extracts text from uploaded PDF resumes
+- Scores each candidate with structured LLM output and validates the result
+- Returns a ranked shortlist with a justification for each score
 
-![Java](https://img.shields.io/badge/Java-0e131a?style=flat-square&logo=openjdk&logoColor=ffb454)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0e131a?style=flat-square&logo=springboot&logoColor=5eead4)
-![Spring Batch](https://img.shields.io/badge/Spring_Batch-0e131a?style=flat-square&logo=spring&logoColor=5eead4)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0e131a?style=flat-square&logo=postgresql&logoColor=60a5fa)
-![MinIO](https://img.shields.io/badge/MinIO-0e131a?style=flat-square&logo=minio&logoColor=f87171)
-![Docker](https://img.shields.io/badge/Docker-0e131a?style=flat-square&logo=docker&logoColor=60a5fa)
-
-- PDF extraction with Apache PDFBox
-- Validated JSON from the LLM before any score is stored
-- Asynchronous batch scoring with configurable weights
-- Ranked shortlist exportable to Excel, runnable with Docker Compose
-
-</td>
-</tr>
-</table>
-
-**Employee Information System: architecture**
-
-```mermaid
-flowchart LR
-    C[Client] --> CT[Controller]
-    CT --> SV[Service]
-    SV --> RP[Repository]
-    RP --> DB[(MySQL)]
-    CT -. errors .-> EH[Exception Handler]
-    SV -. mapping .-> DTO[DTO Mapper]
-```
-
-**AI Resume Screener: pipeline**
-
-```mermaid
-flowchart LR
-    U[Upload JD + Resumes] --> API[REST API]
-    API --> S[(MinIO)]
-    API --> B[Batch Job]
-    B --> P[PDFBox Extraction]
-    P --> L[LLM Scoring]
-    L --> V[JSON Validation]
-    V --> D[(PostgreSQL)]
-    D --> R[Ranked Shortlist]
-    R --> X[Excel Export]
-```
-
-<table>
-<tr>
-<td width="50%" valign="top">
+**Stack:** Java, Spring Boot, LLM API
 
 ### Test Generator
-`03 / JAVA + OOP`
+A Java application that generates tests from instructor-provided questions, applying object-oriented design to question management, test generation, and output.
 
-Builds tests from instructor-provided questions, with object-oriented design applied to question management, test generation, and output.
+**Stack:** Java
 
-</td>
-<td width="50%" valign="top">
+### Active Accident Prevention (Graduation Project, Grade A+)
+A vehicle-safety prototype combining lane-departure warning and traffic-sign detection using a HuskyLens AI camera, sensors, and driver alerts.
 
-### Active Accident Prevention
-`04 / EMBEDDED + ML, GRADE A+`
+**Stack:** Arduino Uno, HuskyLens AI camera, machine learning
 
-Graduation prototype combining lane-departure warning and traffic-sign detection with a HuskyLens AI camera, sensors, and driver alerts.
+---
 
-</td>
-</tr>
-</table>
+## Experience
 
-<br />
+**Software Test Engineer**, Madkour Technology · Oct 2025 – Present
+- Test an internal enterprise platform, covering feature validation, role-based access, regression, and defect retesting
+- Run performance tests with Apache JMeter and report bottlenecks
+- Build AI-assisted QA workflows that produce test plans, test cases, and reports, reviewed before use
+- Perform business analysis, including gap analysis and user stories, for an internal LMS
 
-## `04` Experience
+**System Engineer**, Paragon Developments · Mar 2024 – Sep 2025
+- Redesigned Zoho CRM workflows to align with business requirements
+- Tested enterprise platforms including Procore, Autodesk Docs, Odoo HR, and an internal OKR portal
 
-| Period | Role | Highlights |
-|--------|------|------------|
-| **Oct 2025 – Present** | Software Test Engineer, **Madkour Technology** | End-to-end validation of an enterprise platform (functional, regression, role-based access, Apache JMeter performance). AI-assisted QA workflows that produce test plans, cases, and reports, reviewed before use. |
-| **Mar 2024 – Sep 2025** | System Engineer, **Paragon Developments** | Redesigned Zoho CRM workflows. Tested an internal OKR portal, Procore, Autodesk Docs, and Odoo HR across workflow, integration, and permission scenarios. |
-| **Aug 2023 – Jan 2024** | Software Engineering Intern, **ACUD** | Tested the ACUD ERP system, maintained test cases in Redmine, and took part in CRM integration testing, mobile testing, and requirements workshops. |
+**Software Engineering Intern**, Administrative Capital for Urban Development (ACUD) · Aug 2023 – Jan 2024
+- Tested the ACUD ERP system and maintained test cases in Redmine
+- Took part in CRM integration testing, mobile testing, and requirements workshops
 
-<br />
+---
 
-## `05` Engineering principles
-
-| Principle | In practice |
-|-----------|-------------|
-| **Clean layering** | Thin controllers, rules in services, persistence behind repositories |
-| **Contract first** | Explicit DTOs, validation, predictable error responses |
-| **Test what matters** | Unit tests for logic, slice tests for the web layer, integration tests against real databases |
-| **Reproducible setups** | Docker for local environments, Maven for builds |
-| **Review everything** | AI-generated code gets the same scrutiny as any other change |
-
-<br />
-
-## `06` Education
+## Education and Training
 
 - **B.Sc. Software Engineering**, Arab Academy for Science, Technology and Maritime Transport (2019 – 2023)
-- **IBM Java Developer Professional Certificate**, Coursera *(in progress)*
-- **Java Spring Boot 3 and Spring 6**, Udemy *(completed)*
+- **IBM Java Developer Professional Certificate**, Coursera (in progress)
+- **Java Spring Boot 3 and Spring 6**, Udemy (completed)
 - **Software Testing Bootcamp**, Nezam Academy
-- **Performance Testing with JMeter**, SWQ Academy
+- **Performance Testing with Apache JMeter**, SWQ Academy
 
-<br />
+---
 
-<div align="center">
+## Contact
 
-### Let's build something reliable.
-
-I'm open to Java backend and Spring Boot opportunities, and happy to talk about API design, testing strategy, or AI-assisted engineering.
-
-<a href="mailto:muhamedsamer286@gmail.com"><img src="https://img.shields.io/badge/muhamedsamer286@gmail.com-ffb454?style=for-the-badge&logo=gmail&logoColor=0b0f14&labelColor=ffb454" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/mohamed-samer"><img src="https://img.shields.io/badge/LinkedIn-0e131a?style=for-the-badge&logo=linkedin&logoColor=e6edf3&labelColor=0e131a" alt="LinkedIn" /></a>
-
-</div>
+The best way to reach me is by email at [muhamedsamer286@gmail.com](mailto:muhamedsamer286@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/mohamed-samer).
