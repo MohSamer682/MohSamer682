@@ -33,70 +33,9 @@ targets:
 
 ## `02` Tech stack
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Languages**
-
-![Java](https://img.shields.io/badge/Java-0e131a?style=flat-square&logo=openjdk&logoColor=ffb454)
-![SQL](https://img.shields.io/badge/SQL-0e131a?style=flat-square&logo=postgresql&logoColor=60a5fa)
-![Python](https://img.shields.io/badge/Python-0e131a?style=flat-square&logo=python&logoColor=60a5fa)
-
-</td>
-<td width="33%" valign="top">
-
-**Frameworks**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0e131a?style=flat-square&logo=springboot&logoColor=5eead4)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-0e131a?style=flat-square&logo=spring&logoColor=5eead4)
-![Spring Security](https://img.shields.io/badge/Spring_Security-0e131a?style=flat-square&logo=springsecurity&logoColor=5eead4)
-![Hibernate](https://img.shields.io/badge/Hibernate-0e131a?style=flat-square&logo=hibernate&logoColor=b8c2d0)
-
-</td>
-<td width="33%" valign="top">
-
-**Data**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0e131a?style=flat-square&logo=postgresql&logoColor=60a5fa)
-![MySQL](https://img.shields.io/badge/MySQL-0e131a?style=flat-square&logo=mysql&logoColor=60a5fa)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Testing**
-
-![JUnit 5](https://img.shields.io/badge/JUnit_5-0e131a?style=flat-square&logo=junit5&logoColor=5eead4)
-![Mockito](https://img.shields.io/badge/Mockito-0e131a?style=flat-square&logoColor=5eead4)
-![Selenium](https://img.shields.io/badge/Selenium-0e131a?style=flat-square&logo=selenium&logoColor=5eead4)
-![TestNG](https://img.shields.io/badge/TestNG-0e131a?style=flat-square&logoColor=ffb454)
-![Postman](https://img.shields.io/badge/Postman-0e131a?style=flat-square&logo=postman&logoColor=ffb454)
-![JMeter](https://img.shields.io/badge/JMeter-0e131a?style=flat-square&logo=apachejmeter&logoColor=f87171)
-
-</td>
-<td valign="top">
-
-**Tooling**
-
-![Maven](https://img.shields.io/badge/Maven-0e131a?style=flat-square&logo=apachemaven&logoColor=f87171)
-![Git](https://img.shields.io/badge/Git-0e131a?style=flat-square&logo=git&logoColor=f87171)
-![Docker](https://img.shields.io/badge/Docker-0e131a?style=flat-square&logo=docker&logoColor=60a5fa)
-![Jira](https://img.shields.io/badge/Jira-0e131a?style=flat-square&logo=jira&logoColor=60a5fa)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0e131a?style=flat-square&logo=azuredevops&logoColor=60a5fa)
-
-</td>
-<td valign="top">
-
-**AI-assisted**
-
-![Claude Code](https://img.shields.io/badge/Claude_Code-0e131a?style=flat-square&logo=anthropic&logoColor=ffb454)
-![Codex](https://img.shields.io/badge/Codex-0e131a?style=flat-square&logo=openai&logoColor=e6edf3)
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="stack.svg" alt="Tech stack: Java, SQL, Python, Spring Boot, Spring Data JPA, Spring Security, Hibernate, PostgreSQL, MySQL, JUnit 5, Mockito, Selenium, TestNG, Postman, JMeter, Maven, Git, Docker, Jira, Azure DevOps, Claude Code, Codex" width="100%" />
+</div>
 
 <br />
 
