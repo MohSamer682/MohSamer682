@@ -10,7 +10,7 @@ Cairo, Egypt · [muhamedsamer286@gmail.com](mailto:muhamedsamer286@gmail.com) ·
 
 I am a software engineer with more than two years of experience in enterprise systems, working across testing, requirements analysis, and delivery. I am now focused on Java backend development, specifically REST API design, data persistence with JPA, and layered application architecture.
 
-My background in quality engineering shapes how I build software. I design for testability, define clear API contracts, and think about failure cases from the start. I use AI-assisted tools such as Claude Code and Codex for analysis, test generation, and debugging, and I review all generated output before it is used.
+My background in quality engineering shapes how I build software. My main project, [TalentLens](https://github.com/MohSamer682/TalentLens), is a full hiring platform on Spring Boot and React. I design for testability, define clear API contracts, and think about failure cases from the start. I use AI-assisted tools such as Claude Code and Codex for analysis, test generation, and debugging, and I review all generated output before it is used.
 
 I am open to roles as a **Java Backend Developer**, **Spring Boot Developer**, or **Java QA Automation Engineer**.
 
@@ -21,11 +21,12 @@ I am open to roles as a **Java Backend Developer**, **Spring Boot Developer**, o
 | Area | Skills |
 |------|--------|
 | Languages | Java, SQL |
-| Frameworks | Spring Boot 3, Spring Framework 6, Spring MVC, Spring Data JPA, Hibernate ORM, Spring Security, Thymeleaf |
-| Databases | MySQL |
+| Frameworks | Spring Boot 3, Spring Framework 6, Spring MVC, Spring Data JPA, Hibernate ORM, Spring Security (JWT), Thymeleaf |
+| Frontend | React, TypeScript, Tailwind CSS (used in TalentLens) |
+| Databases | PostgreSQL, MySQL, Flyway migrations |
 | APIs | RESTful API design, Postman |
 | Testing | Selenium WebDriver, TestNG, Page Object Model, Apache JMeter |
-| Tools | Apache Maven, Git, GitHub, Jira, Azure DevOps, Zephyr Scale, Docker (fundamentals) |
+| Tools | Apache Maven, Git, GitHub, GitHub Actions, Docker and Docker Compose, MinIO, Jira, Azure DevOps, Zephyr Scale |
 | AI-assisted engineering | Claude Code, Codex, prompt engineering for development and QA workflows |
 | Practices | Object-oriented design, SOLID principles, Agile delivery, requirements analysis |
 
@@ -42,14 +43,17 @@ A Spring Boot REST API for managing employee records, with full create, read, up
 
 **Stack:** Java, Spring Boot, Spring Data JPA, Hibernate, MySQL
 
-### AI-Powered Resume Screener
-A Spring Boot service that ranks candidate resumes against a job description using an LLM.
+### [TalentLens](https://github.com/MohSamer682/TalentLens)
+A hiring platform that screens resumes against a job description with an LLM, ranks the candidates, and carries the shortlist through interviews, offer approval and joining.
 
-- Extracts text from uploaded PDF resumes
-- Scores each candidate with structured LLM output and validates the result
-- Returns a ranked shortlist with a justification for each score
+- Weighted scoring on five criteria, with strengths, gaps and a justification for every candidate
+- Separate batch worker for up to 1,000 resumes per session, with retries, rate limiting and live progress
+- Hiring pipeline with planned interview rounds, structured interviewer feedback and a two-step offer approval chain
+- Candidate portal where shortlisted applicants follow their application and request interview changes
+- Admin-managed roles and permissions, separate staff and candidate sign-in, audit log and recruiting analytics
+- 18 Flyway migrations, module boundary tests, and CI on every pull request
 
-**Stack:** Java, Spring Boot, LLM API
+**Stack:** Java 21, Spring Boot 3, Spring Security (JWT), Spring Data JPA, Flyway, PostgreSQL, MinIO, React, TypeScript, Tailwind CSS, Docker Compose, GitHub Actions
 
 ### Test Generator
 A Java application that generates tests from instructor-provided questions, applying object-oriented design to question management, test generation, and output.
